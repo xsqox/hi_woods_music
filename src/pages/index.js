@@ -2,19 +2,36 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Nav from "../components/nav"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO
+      title="Home | Hi Woods"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
+    <Nav />
+    <section>
+      <h3>
+        Hi there from <span>Hi Woods</span>
+      </h3>
+      <p>We are a duo IDM band currenly located in Montreal.</p>
+      <p>
+        Inspired by vast and wild spaces, we bring you <tt>#post_minimal</tt>,{" "}
+        <tt>#dream_minimal</tt>, <tt>#dance_ambient</tt> from Point Canada.
+      </p>
+      <p>
+        It's rainfallish techno beats coupled with funky synth slowly
+        transforming into trippy dream hop just to give way to airy piano
+        passages and drone harmonies...
+      </p>
+      <p>
+        Anyway, less words, more woods! <Link to="/music/">Listen</Link>
+        <span> </span>
+        and hope you enjoy.
+      </p>
+    </section>
   </Layout>
 )
 
