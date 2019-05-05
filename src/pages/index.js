@@ -29,7 +29,10 @@ const IndexPage = () => (
         passages and drone harmonies...
       </p>
       <p>
-        Anyway, less words, more woods! <Link to="/music/">Listen</Link>
+        Anyway, less words, more woods!{" "}
+        <Link to="/listen" style={{ color: "#333333" }}>
+          Listen
+        </Link>
         <span> </span>
         and hope you enjoy.
       </p>

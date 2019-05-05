@@ -2,3 +2,17 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.navLink {
+    text-decoration: none;
+    font-family: 'Strange Rituals';
+    font-weight: bold;
+    color: #333333;
+    display: inline-block;
+    margin: 15px 25px;
+    padding-bottom: 5px;
+}
+
+.navLink.active {
+    border-bottom: 1px solid #333333;
+}

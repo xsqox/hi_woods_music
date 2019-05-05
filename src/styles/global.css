@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
 @font-face {
     font-family: "Manic Depressive";
     src: url("../fonts/manic_depressive/manic-depressive-webfont.woff2");
@@ -8,17 +11,27 @@
     src: url("../fonts/strange_rituals/strange_rituals-webfont.woff2");
 }
 
-.pageLayout {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: auto 30px;
+body {
     background-image: url("../images/page_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.pageLayout {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.25em;
+    grid-template-rows: auto 30px;
+}
+
 .pageFooter {
     font-size: 10px;
     text-align: center;
+}
+
+h3 {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5em;
 }
