@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Manic Depressive";
+    src: url("../fonts/manic_depressive/manic-depressive-webfont.woff2");
+}
+
+@font-face {
+    font-family: "Strange Rituals";
+    src: url("../fonts/strange_rituals/strange_rituals-webfont.woff2");
+}
+
+.pageLayout {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 30px;
+}
+
+.pageFooter {
+    font-size: 10px;
+    text-align: center;
+}

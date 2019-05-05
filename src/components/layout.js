@@ -25,9 +25,10 @@ const Layout = ({ children }) => (
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}
+          className="pageLayout"
         >
           <main>{children}</main>
-          <footer>
+          <footer className="pageFooter">
             {getCurrentYear()} Hi Woods Music &copy; All rights reserved and all
             wrongs reserved.
           </footer>
