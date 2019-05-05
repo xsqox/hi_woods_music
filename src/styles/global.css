@@ -13,6 +13,9 @@
     height: 100vh;
     display: grid;
     grid-template-rows: auto 30px;
+    background-image: url("../images/page_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pageFooter {

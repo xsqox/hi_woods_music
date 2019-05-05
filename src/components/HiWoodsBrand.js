@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const HiWoodsBrand = ({ text }) => (
-  <span style={{ "font-family": "Manic Depressive" }}>{text}</span>
+  <span style={{ fontFamily: "Manic Depressive" }}>{text}</span>
 )
 
 HiWoodsBrand.propTypes = {
