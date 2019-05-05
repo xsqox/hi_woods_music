@@ -1,12 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./layout.css"
+import s from "./nav.module.css"
 
 const Nav = () => (
-  <nav>
-    <Link to="/">About</Link>
-    <Link to="/listen/">Listen</Link>
-    <Link to="/contact/">Contact</Link>
+  <nav className={s.nav}>
+    <Link className={"hover-shadow"} to="/">
+      About
+    </Link>
+    <Link className={"hover-shadow"} to="/listen/">
+      Listen
+    </Link>
+    <Link className={"hover-shadow"} to="/contact/">
+      Contact
+    </Link>
   </nav>
 )
 
