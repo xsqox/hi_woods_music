@@ -2,8 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Nav from "../components/nav"
 import SEO from "../components/seo"
+
+import Nav from "../components/nav"
+import HiWoodsBrand from "../components/HiWoodsBrand"
 
 const IndexPage = () => (
   <Layout>
@@ -14,7 +16,7 @@ const IndexPage = () => (
     <Nav />
     <section>
       <h3>
-        Hi there from <span>Hi Woods</span>
+        Hi there from <HiWoodsBrand />
       </h3>
       <p>We are a duo IDM band currenly located in Montreal.</p>
       <p>

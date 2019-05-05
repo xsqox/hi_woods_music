@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Nav from "../components/nav"
+import HiWoodsBrand from "../components/HiWoodsBrand"
 
 const SecondPage = () => (
   <Layout>
@@ -9,7 +10,7 @@ const SecondPage = () => (
     <Nav />
     <section>
       <h3>
-        Get to <span>Hi Woods</span>
+        Get to <HiWoodsBrand />
       </h3>
       <p>
         We are totally open for collaboration or gigs. Let us know what you have
@@ -22,7 +23,8 @@ const SecondPage = () => (
         {"\u2764"}).
       </p>
       <p>
-        May the <span>High</span> and the<span> Woods</span> be with you!
+        May the <HiWoodsBrand text="High" /> and the{" "}
+        <HiWoodsBrand text="Woods" /> be with you!
       </p>
     </section>
   </Layout>
