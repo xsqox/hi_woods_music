@@ -18,7 +18,7 @@ const SecondPage = () => (
         <a href="mailto:hiwoodse@gmail.com">hiwoodse@gmail.com</a>.
       </p>
       <p>
-        You can also find us around the Web. Feel free to leave your feedback or
+        You can also find us around the web. Feel free to leave your feedback or
         show support with likes and shares (honestly, will be much appreciated{" "}
         {"\u2764"}).
       </p>

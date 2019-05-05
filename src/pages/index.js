@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Nav from "../components/nav"
 import HiWoodsBrand from "../components/HiWoodsBrand"
 
+//@TODO fix background image
 const IndexPage = () => (
   <Layout>
     <SEO

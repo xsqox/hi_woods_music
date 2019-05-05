@@ -23,12 +23,13 @@ body {
     display: grid;
     font-family: 'Muli', sans-serif;
     font-size: 1.25em;
-    grid-template-rows: auto 30px;
+    grid-template-rows: auto 15px;
 }
 
 .pageFooter {
     font-size: 10px;
     text-align: center;
+    color: #f2f2f2;
 }
 
 h3 {
